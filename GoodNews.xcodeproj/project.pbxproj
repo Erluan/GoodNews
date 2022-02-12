@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AA7976027B82E8D0023D601 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7975F27B82E8D0023D601 /* WebService.swift */; };
+		1AA7976427B832A90023D601 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7976327B832A90023D601 /* Article.swift */; };
+		1AA7976727B838890023D601 /* ArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7976627B838890023D601 /* ArticleViewModel.swift */; };
+		1AA7976A27B83DF80023D601 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA7976927B83DF80023D601 /* ArticleTableViewCell.swift */; };
 		1ACE8F4427B6F8CC00F8CF58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8F4327B6F8CC00F8CF58 /* AppDelegate.swift */; };
 		1ACE8F4627B6F8CC00F8CF58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ACE8F4527B6F8CC00F8CF58 /* SceneDelegate.swift */; };
 		1ACE8F4B27B6F8CC00F8CF58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ACE8F4927B6F8CC00F8CF58 /* Main.storyboard */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AA7975F27B82E8D0023D601 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		1AA7976327B832A90023D601 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		1AA7976627B838890023D601 /* ArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleViewModel.swift; sourceTree = "<group>"; };
+		1AA7976927B83DF80023D601 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		1ACE8F4027B6F8CC00F8CF58 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ACE8F4327B6F8CC00F8CF58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1ACE8F4527B6F8CC00F8CF58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AA7975E27B82E740023D601 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7975F27B82E8D0023D601 /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1AA7976127B832820023D601 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7976327B832A90023D601 /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1AA7976527B838150023D601 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7976627B838890023D601 /* ArticleViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1AA7976827B83DE10023D601 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1AA7976927B83DF80023D601 /* ArticleTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		1ACE8F3727B6F8CC00F8CF58 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +139,10 @@
 		1ACE8F4227B6F8CC00F8CF58 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				1AA7976827B83DE10023D601 /* Cells */,
+				1AA7976527B838150023D601 /* ViewModels */,
+				1AA7976127B832820023D601 /* Models */,
+				1AA7975E27B82E740023D601 /* Services */,
 				1ACE8F7327B6F8F600F8CF58 /* Controllers */,
 				1ACE8F4327B6F8CC00F8CF58 /* AppDelegate.swift */,
 				1ACE8F4527B6F8CC00F8CF58 /* SceneDelegate.swift */,
@@ -268,7 +312,11 @@
 			files = (
 				1ACE8F4427B6F8CC00F8CF58 /* AppDelegate.swift in Sources */,
 				1ACE8F7527B6F91300F8CF58 /* NewsListTableViewController.swift in Sources */,
+				1AA7976027B82E8D0023D601 /* WebService.swift in Sources */,
+				1AA7976727B838890023D601 /* ArticleViewModel.swift in Sources */,
 				1ACE8F4627B6F8CC00F8CF58 /* SceneDelegate.swift in Sources */,
+				1AA7976A27B83DF80023D601 /* ArticleTableViewCell.swift in Sources */,
+				1AA7976427B832A90023D601 /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
